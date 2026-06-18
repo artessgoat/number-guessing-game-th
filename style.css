@@ -2,17 +2,27 @@ body{
   font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 40px;
+    min-height: 100vh;
+
+  background:  linear-gradient(to bottom, skyblue, white);
 }
+
 /* กรอบหลักของเกม */
 .game-box{
   width: 300px;
   margin: auto;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid green;
   border-radius: 10px;
+  background: white
 }
+.name-project{
+  font-size: 20px;
+  text-align: center;
+}
+
 /* ปรับขนาดปุ่ม */
-button{
+button1{
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -25,4 +35,10 @@ button{
 p{
    text-align: center;
    font-size: 15px;
+}
+
+.flower{
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
 }
