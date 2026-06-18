@@ -1,0 +1,28 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+/* กรอบหลักของเกม */
+.game-box{
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+/* ปรับขนาดปุ่ม */
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#result{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+p{
+   text-align: center;
+   font-size: 15px;
+}
